@@ -1,0 +1,39 @@
+.container-fluid{
+    background-image: url(food\ imag.avif);
+    background-position: center;
+    height: 100%;
+
+}
+#title {
+    font-family: 'Allura', cursive;
+    text-align: center;
+    font-weight: bold;
+    font-stretch: expanded;
+    color: rgb(121, 22, 208);
+    margin: 0px 10px;
+    padding: 20px 20px 10px;
+}
+#description {
+    font-family: 'Marck Script', cursive;
+    text-align: center;
+    font-weight: 600;
+    color: rgb(206, 197, 22);
+}
+.main{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+.form{
+    backdrop-filter: blur(20px) saturate(180%);
+    background-color: rgb(177, 231, 231);
+    border-radius: 10px;
+    border: 10px solid rgb(172, 231, 234);
+}
+table{
+    width: 100%;
+    margin-bottom: 1rem;
+    border-collapse: collapse;
+    border-spacing: 1px;
+}
