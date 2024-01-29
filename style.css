@@ -1,4 +1,4 @@
-.container-fluid{
+body{
     background-image: url(food\ imag.avif);
     background-position: center;
     height: 100%;
@@ -28,11 +28,14 @@
 }
 .form{
     backdrop-filter: blur(20px) saturate(180%);
+    -webkit-backdrop-filter: blur(20px);
     background-color: rgb(177, 231, 231);
     border-radius: 10px;
     border: 10px solid rgb(172, 231, 234);
 }
 table{
+    backdrop-filter: blur(20px) saturate(180%);
+    -webkit-backdrop-filter: blur(20px);
     width: 100%;
     margin-bottom: 1rem;
     border-collapse: collapse;
